@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    margin: 10px auto;
+    max-width: 800px;
+    height: 250px;
+    position: relative;
+}
+.container img{
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s;
+    z-index: 1;
+}
+.container img.active{
+    opacity: 1;
+}
+.slide-number{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-color: rgba(0, 45, 45);
+}

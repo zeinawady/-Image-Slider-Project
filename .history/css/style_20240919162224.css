@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#eaeaea ;
+    overflow: hidden;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 1000px;
+    height: 600px;
+    padding: 50px;
+    background-color: #f5f5f5;
+    box-shadow: 0 30px 50px #dbdbdb;
+}
+/* Medium screens */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .container {
+        width: 800px;
+        height: 500px;
+    }
+}
+
+/* Small screens */
+@media (max-width: 767px) {
+    .container {
+        width: 90%; /* Use percentage for very small screens to fit */
+        max-width: 500px; /* Restrict maximum width */
+        height: auto; /* Allow height to adjust automatically */
+        padding: 10px; /* Add some padding for content */
+    }
+}
+#slide{
+    width: max-content;
+    margin-top: 50px;
+}
+.item{
+    max-width: 200px;
+    height: 300px;
+    background-position: 50% 50;
+}
