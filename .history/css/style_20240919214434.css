@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #c1d0e1;
+    background-color: #9bc4f3;
 }
 
 .container-slider {
@@ -14,7 +14,7 @@ body {
     max-width: 500px;
     height: 250px;
     position: relative;
-    
+  
 }
 
 
